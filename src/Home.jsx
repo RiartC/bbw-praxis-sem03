@@ -3,12 +3,16 @@ import './App.css';
 import overview2 from './assets/overview2.mp4'; //
 
 function Home() {
+
         return (
             <div className="main">
                 <h2>Trainiere wie ein Weltmeister</h2>
+                <br/>
                 <p>Boxtraining für Anfänger bis Profis</p>
+                <br/>
                 <button className="button">Jetzt Mitglied werden</button>
 
+                <br/>
                 <br/>
                 Werde die beste Version deiner selbst – im Boxgym Fight Factory! 🥊
                 <br/>
