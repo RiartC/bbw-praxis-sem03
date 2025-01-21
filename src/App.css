@@ -73,6 +73,15 @@ header, main {
 }
 
 /* Hauptcontainer */
+.main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #262626; /* Dunkleres Grau */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
 .training-container {
   text-align: center;
   padding: 20px;
@@ -226,14 +235,14 @@ form button:hover {
 }
 
 .wettkämpfer {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: left;
   gap: 20px;
 }
 
 .wettkämpfer-logo {
-  width: 100px; /* Logo-Breite */
+  width: 150px; /* Logo-Breite */
   height: auto; /* Automatische Höhe */
   border-radius: 8px; /* Optional: Abgerundete Ecken */
 }
@@ -255,7 +264,7 @@ form button:hover {
 }
 
 .trainer-logo {
-  width: 100px; /* Logo-Breite */
+  width: 150px; /* Logo-Breite */
   height: auto; /* Automatische Höhe */
   border-radius: 8px; /* Optional: Abgerundete Ecken */
 }

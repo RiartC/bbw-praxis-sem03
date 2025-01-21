@@ -1,5 +1,10 @@
 import React from 'react';
 import fortnite from "./assets/fortnite.png";
+import trainer from "./assets/traienr.jpg";
+import berkan from "./assets/berkan.jpg";
+import nando from "./assets/nando.jpg";
+import lorenz from "./assets/lorenz.jpg";
+
 
 function About() {
     return (
@@ -28,10 +33,10 @@ function About() {
             <div className="trainer-section">
                 <div className="trainer">
                     <img
-                        src={fortnite}
+                        src={trainer}
                         className="trainer-logo"
                     />
-                    <p>Riart (Cus D'Amato)</p>
+                    <p>Riart</p>
                 </div>
             </div>
 
@@ -42,23 +47,32 @@ function About() {
             <div className="wettkämpfer-section">
                 <div className="wettkämpfer">
                     <img
-                        src={fortnite}
+                        src={berkan}
                         className="wettkämpfer-logo"
                     />
                     <p>Berkan (Mike Tyson)</p>
+                    50-7-0 (44 KOs)
                     <br/>
                     <img
-                        src={fortnite}
+                        src={nando}
                         className="wettkämpfer-logo"
                     />
                     <p>Sandro (Rocky)</p>
+                    57-23-1 (54 KOs)
+                    <br/>
+                    <img
+                        src={lorenz}
+                        className="wettkämpfer-logo"
+                    />
+                    <p>Lorenz (Bruce Lee)</p>
+                    512-0.5-0 (512 KOs)
                 </div>
             </div>
             <br/>
             <h3>Sponsoren</h3>
             <div className="sponsor-section">
                 <div className="sponsor">
-                    <img
+                <img
                         src={fortnite}
                         alt="Production Logo"
                         className="sponsor-logo"
