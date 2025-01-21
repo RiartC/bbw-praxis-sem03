@@ -1,0 +1,272 @@
+/* Allgemeine Einstellungen */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a; /* Dunkler Hintergrund */
+  color: #fff; /* Weißer Text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Vollbild für Container */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+}
+
+header, main {
+  width: 100%;
+}
+
+/* Navbar-Styling */
+.navbar {
+  background-color: #333; /* Dunkles Grau */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin: 0 20px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #FFD700; /* Gelb für Links */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.navbar-item a:hover {
+  color: #FF4500; /* Orange-Rot beim Hover */
+  transform: scale(1.1);
+}
+
+/* Main Content */
+.content {
+  flex: 1; /* Damit der Hauptinhalt den Rest der Seite ausfüllt */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hauptcontainer */
+.training-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.training-grid {
+  display: flex; /* Flexbox für horizontale Ausrichtung */
+  gap: 20px; /* Abstand zwischen den Kästchen */
+  padding: 20px;
+  justify-content: space-between; /* Verteilt die Kästchen gleichmäßig über die Breite */
+  flex-wrap: wrap; /* Ermöglicht Zeilenumbruch auf kleineren Bildschirmen */
+}
+
+.training-card {
+  background-color: #262626; /* Dunkleres Grau */
+  border: 2px solid #FFD700; /* Gelber Rand */
+  border-radius: 8px;
+  text-align: left;
+  padding: 16px;
+  flex: 1 1 calc(33.333% - 20px); /* 3 Kästchen pro Zeile mit Abstand */
+  max-width: calc(33.333% - 20px); /* Maximale Breite für ein Kästchen */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s;
+}
+
+.training-card:hover {
+  transform: translateY(-5px);
+  border-color: #FF4500; /* Rot als Hover-Effekt */
+}
+
+.training-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.training-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Formular */
+form {
+  background-color: #262626;
+  padding: 20px;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #FFD700;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+form button {
+  background-color: #FFD700;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+  background-color: #FF4500;
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #333;
+  color: #FFD700;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #FFD700;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: #FFD700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #FF4500;
+}
+
+.sponsor-section {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #262626; /* Dunkles Grau */
+  border: 2px solid #FFD700; /* Gelber Rand */
+  border-radius: 8px;
+}
+
+.sponsor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sponsor-logo {
+  width: 50px; /* Logo-Breite */
+  height: auto; /* Automatische Höhe */
+  border-radius: 8px; /* Optional: Abgerundete Ecken */
+}
+
+.wettkämpfer-section {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #262626; /* Dunkles Grau */
+  border: 2px solid #FFD700; /* Gelber Rand */
+  border-radius: 8px;
+}
+
+.wettkämpfer {
+  display: block;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+}
+
+.wettkämpfer-logo {
+  width: 100px; /* Logo-Breite */
+  height: auto; /* Automatische Höhe */
+  border-radius: 8px; /* Optional: Abgerundete Ecken */
+}
+
+.trainer-section {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #262626; /* Dunkles Grau */
+  border: 2px solid #FFD700; /* Gelber Rand */
+  border-radius: 8px;
+}
+
+.trainer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.trainer-logo {
+  width: 100px; /* Logo-Breite */
+  height: auto; /* Automatische Höhe */
+  border-radius: 8px; /* Optional: Abgerundete Ecken */
+}
+
+.video-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.overview-video {
+  border: 2px solid #FFD700; /* Gelber Rand */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
