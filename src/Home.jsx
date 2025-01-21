@@ -12,6 +12,7 @@ function Home() {
                 <br/>
                 Werde die beste Version deiner selbst – im Boxgym Fight Factory! 🥊
                 <br/>
+
                 <br/>
                 Bist du bereit, deine Komfortzone zu verlassen und dich einer neuen Herausforderung zu stellen? Egal, ob
                 du
