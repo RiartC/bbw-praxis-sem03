@@ -30,7 +30,7 @@ function Home() {
                 Anfänger
                 bis zum Profi – wir holen das Beste aus dir heraus!
                 <p/>
-                ✅ Spaß und Motivation: Vergiss langweilige Fitnessroutinen! Bei uns findest du eine Community, die dich
+                ✅ Spass und Motivation: Vergiss langweilige Fitnessroutinen! Bei uns findest du eine Community, die dich
                 unterstützt und dir hilft, jeden Schlag mit Power zu setzen.
                 <p/>
                 ✅ Erfahrene Trainer: Unsere Coaches stehen dir mit Rat und Tat zur Seite – mit Technik, Strategie und

@@ -51,7 +51,7 @@ function Training() {
                             <p>
                                 Im Techniktraining perfektionierst du deine Bewegungen, damit jeder Schlag sitzt. Wir
                                 legen Wert auf saubere Ausführung, Schnelligkeit und Präzision. Ob Grundstellungen,
-                                Schlagkombinationen oder Fußarbeit – hier lernst du alles, was dich im Ring
+                                Schlagkombinationen oder Fussarbeit – hier lernst du alles, was dich im Ring
                                 unschlagbar macht.
                             </p>
                             <ul>
@@ -69,7 +69,7 @@ function Training() {
                         <>
                             <p>
                                 Beim Footwork-Training lernst du, dich effizient und explosiv im Ring zu bewegen. Gute
-                                Fußarbeit ist der Schlüssel zu präzisen Angriffen und einer soliden Verteidigung.
+                                Fussarbeit ist der Schlüssel zu präzisen Angriffen und einer soliden Verteidigung.
                             </p>
                             <ul>
                                 <ul>🔸 Perfektioniere deine Balance und Stabilität</ul>
